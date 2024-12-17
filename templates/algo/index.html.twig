@@ -5,13 +5,17 @@
 {% block body %}
 
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/home/sara/Bureau/poissonRouge/src/Controller/AlgoController.php</code></li>
-        <li>Your template at <code>/home/sara/Bureau/poissonRouge/templates/algo/index.html.twig</code></li>
-    </ul>
+<div class="d-flex flex-row mt-5">
+<div class=" mx-5"> maison 1</div>
+<div class=" mx-5">maison 2</div>
+<div class=" mx-5">maison 3</div>
+<div class=" mx-5">maison 4</div>
+<div class=" mx-5">maison 5</div> 
 </div>
+
+{{ form_start(form) }}
+{{ form_errors(form) }}
+
+{{ form_end(form) }}
+
 {% endblock %}
